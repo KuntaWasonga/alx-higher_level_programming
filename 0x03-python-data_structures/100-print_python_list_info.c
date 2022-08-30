@@ -1,4 +1,5 @@
-#include <Python.h>
+#include "Python.h"
+#include <stdio.h>
 
 /**
  * print_python_list_info - this function prints basic info about python lists
@@ -8,7 +9,7 @@
 void print_python_list_info(PyObject *p)
 {
 	int size, alloc, i;
-	PyObject *oj;
+	PyObject *obj;
 
 	size = Py_SIZE(p);
 	alloc = ((PyListObject *)p)->allocated;

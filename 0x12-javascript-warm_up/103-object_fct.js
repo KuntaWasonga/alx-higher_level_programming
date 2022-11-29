@@ -1,4 +1,5 @@
-bject = {
+#!/usr/bin/node
+let myObject = {
   type: 'object',
   value: 12
 };
@@ -14,4 +15,3 @@ myObject.incr();
 console.log(myObject);
 myObject.incr();
 console.log(myObject);
-

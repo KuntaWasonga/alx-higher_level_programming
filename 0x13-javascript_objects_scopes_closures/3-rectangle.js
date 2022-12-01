@@ -13,10 +13,9 @@ class Rectangle {
                 s += 'X';
             }
             s += '\n';
+            console.log(s);
         }
     }
-
-    console.log(s);
 }
 
 module.exports = Rectangle;
